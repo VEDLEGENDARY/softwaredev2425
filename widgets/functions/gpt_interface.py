@@ -33,7 +33,7 @@ Interval: x times a day, y times a week
 
     try:
         client = OpenAI(
-            api_key="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",  # Your provided API key
+            api_key="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",  # Your provided API key
         )
         chat_completion = client.chat.completions.create(
             messages=[{
