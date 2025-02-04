@@ -1,0 +1,29 @@
+QLabel {
+    font-family: "Lato";
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#info-label {
+    font-size: 25px;
+    text-align: center;
+}
+
+#ok-button {
+    font-size: 15px;
+    min-width: 100%;
+    max-width: 100%;    
+}
+
+QLineEdit{
+    margin-top: 5;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 0 8px;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    background-color:rgb(255, 248, 248);
+}

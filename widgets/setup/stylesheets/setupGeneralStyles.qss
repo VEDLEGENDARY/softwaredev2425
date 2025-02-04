@@ -1,0 +1,83 @@
+/* Modern Theme Styles */
+
+/* Common Styles */
+* {
+    font-family: "Segoe UI", sans-serif;
+}
+
+QWidget {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+
+/* Input Styles */
+.input-label {
+    font-size: 14px;
+    color: #495057;
+}
+
+.info_label {
+    font-size: 20px;
+    color: #495057;
+}
+
+QLineEdit {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #007bff;
+}
+
+/* Button Styles */
+QPushButton {
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+QPushButton:hover {
+    background-color: #91c0f1;
+}
+
+/* Special Buttons */
+
+/* Confirm Log In button */
+.confirm-button {
+    font-size: 16px;
+    color: #343a40;
+}
+
+/* Sign Up Button */
+.instead-button {
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-left: 70px;
+    border: 0;
+    background-color: transparent;
+    text-align: center;
+    color: #343a40;
+    text-decoration: underline;
+}
+
+
+.instead-button:hover{
+    color: #007bff;
+    background-color:transparent;
+}
+
+/* Error Label */
+.error-label {
+    color: #dc3545;
+    qproperty-alignment: AlignTop;
+}

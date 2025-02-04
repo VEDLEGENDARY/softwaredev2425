@@ -1,0 +1,40 @@
+/* Tab Bar */
+QTabWidget::pane {
+    border-top: 2px solid #C2C7CB; /* Adjust border color as needed */
+    border-radius: 10px; /* Adjust border radius as needed */
+    background-color: #F0F0F0; /* Adjust background color as needed */
+}
+
+
+/* Tab */
+QTabBar::tab {
+    background-color: #FFFFFF; /* Adjust tab background color as needed */
+    color: #333333; /* Adjust tab text color as needed */
+    border-top-left-radius: 10px; /* Adjust tab border radius as needed */
+    border-top-right-radius: 10px; /* Adjust tab border radius as needed */
+    border: 2px solid transparent; /* Adjust tab border properties as needed */
+    padding: 8px 16px; /* Adjust tab padding as needed */
+}
+
+/* Selected Tab */
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background-color: #FFFFFF; /* Adjust selected tab background color as needed */
+    color: #000000; /* Adjust selected tab text color as needed */
+    border-color: #0078D4; /* Adjust selected tab border color as needed */
+}
+
+/* Tab Bar Line */
+QTabBar::tab:last {
+    border-right: none; /* Remove border on the last tab */
+}
+
+/* Disable Tab */
+QTabBar::tab:disabled {
+    color: #A0A0A0; /* Adjust disabled tab text color as needed */
+}
+
+/* Tab Focus */
+QTabBar::tab:focus {
+    outline: none; /* Remove focus outline */
+}
+

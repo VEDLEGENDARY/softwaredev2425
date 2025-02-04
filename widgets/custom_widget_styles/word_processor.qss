@@ -1,0 +1,113 @@
+/* * {
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+/* WordProcessor Widget Styles */
+
+/* Common Styles */
+WordProcessor {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Toolbar Styles */
+WordProcessor QToolBar#toolbar {
+    background-color: #f8f9fa; /* Matches the widget background */
+    border: none; /* Remove any border */
+}
+
+/* Font ComboBox Styles */
+WordProcessor QFontComboBox,
+WordProcessor QComboBox {
+    height: 25px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 2px 10px;
+    background-color: #ffffff;
+}
+
+
+
+/* Action Button Styles */
+WordProcessor QToolButton {
+    height: 25px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: #0776b8;
+    color: #fff;
+}
+
+WordProcessor QToolButton:hover {
+    background-color: #a7daf8;
+    /* border: 1px solid #007bff;  */
+}
+
+WordProcessor QToolButton:pressed {
+    background-color: #0056b3;
+}
+
+/* Color Action Button Styles */
+WordProcessor QToolButton#color_action {
+    color: #000000; /* Default color */
+}
+
+/* Highlight Action Button Styles */
+WordProcessor QToolButton#highlight_action {
+    background-color: #ffff00; /* Initial background color */
+}
+
+
+
+
+/* Format Actions Styles */
+WordProcessor QAction {
+    font-size: 12px;
+}
+
+WordProcessor QToolButton:hover {
+    background-color: #f4f8ff;
+    border: 1px solid #007bff; 
+}
+
+WordProcessor QPushButton:hover{
+    background-color: #f4f8ff;
+    border: 1px solid #007bff; 
+}
+
+
+/* Disabled Button Styles */
+WordProcessor QPushButton:disabled,
+WordProcessor QToolButton:disabled {
+    color: #929292;
+    background-color: #bdbdbd;
+    border-color: #bdbdbd;
+}
+/* WordProcessor Widget Styles */
+/* Common Styles */
+
+WordProcessor {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* QTextEdit Styles */
+WordProcessor.QTextEdit {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+WordProcessor.QTextEdit:focus {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #f4f8ff;
+    border: 1px solid #007bff; 
+    outline: none; 
+}
+

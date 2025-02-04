@@ -1,0 +1,56 @@
+/* .input-label {
+    font-family: "Lato";
+    font-size: 18px;
+
+}
+
+QLineEdit{
+    margin-top: 5;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 0 8px;
+    font-size: 14px;
+}
+
+QLineEdit:focus {
+     background-color:rgb(238, 238, 255);
+    }
+
+QPushButton {
+    font-size: 15px;
+    font-family: "Lato";
+    border-radius: 5px;
+    border: 2px solid gray;
+
+    background-color: rgb(201, 201, 201);
+}
+
+QPushButton:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+.confirm-button {
+    font-size: 20px;
+    color: black;
+}
+
+.instead-button {
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 100%;
+    margin-right: 100%;
+
+    border-width: 0px;
+    background-color: rgb(204, 204, 204);
+
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    
+}
+
+.error-label {
+    color:red;
+    qproperty-alignment: AlignTop;
+} */
